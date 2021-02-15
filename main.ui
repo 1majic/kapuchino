@@ -33,7 +33,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">
-background-color:#FAEEDD;</string>
+background-color:#C7A17E;</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -49,11 +49,12 @@ background-color:#FAEEDD;</string>
      <family>Vladimir Script</family>
      <pointsize>24</pointsize>
      <weight>50</weight>
+     <italic>false</italic>
      <bold>false</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #79553D;</string>
+    <string notr="true">color: #000000;</string>
    </property>
    <property name="text">
     <string>The Coffee guide</string>
@@ -71,11 +72,18 @@ background-color:#FAEEDD;</string>
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-radius:10px;
-background-color: #EEE8AA;</string>
+    <string notr="true">QComboBox{border-radius:10px;
+image: url(:/newPrefix/C:/Users/User/Downloads/down_icon-icons.com_61209.png);
+background-color: #FFCA7C;}
+
+QComboBox::drop-down {
+border-radius: 10px;
+
+}</string>
    </property>
    <property name="currentText">
     <string/>
@@ -100,11 +108,12 @@ background-color: #EEE8AA;</string>
     <font>
      <family>Segoe Print</family>
      <pointsize>8</pointsize>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:30px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -131,10 +140,11 @@ p, li { white-space: pre-wrap; }
    <property name="font">
     <font>
      <family>Yu Gothic UI Semilight</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #79553D;</string>
+    <string notr="true">color: #000000;</string>
    </property>
    <property name="text">
     <string>Описание</string>
@@ -155,11 +165,12 @@ p, li { white-space: pre-wrap; }
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -182,11 +193,12 @@ color:#000000;
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -209,11 +221,12 @@ color:#000000;
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -236,11 +249,12 @@ color:#000000;
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -263,11 +277,12 @@ color:#000000;
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -290,11 +305,12 @@ color:#000000;
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -317,10 +333,11 @@ color:#000000;
    <property name="font">
     <font>
      <family>Yu Gothic UI Semilight</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #79553D;</string>
+    <string notr="true">color: #000000;</string>
    </property>
    <property name="text">
     <string>Хар-ки</string>
@@ -341,10 +358,11 @@ color:#000000;
    <property name="font">
     <font>
      <family>Yu Gothic UI Semilight</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #79553D;</string>
+    <string notr="true">color: #000000;</string>
    </property>
    <property name="text">
     <string>&lt;-Выберете вид кофе</string>
@@ -362,6 +380,7 @@ color:#000000;
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
@@ -386,6 +405,7 @@ QPushButton:hover{background-color: rgb(213, 233, 200);color: #ffffff}</string>
    <property name="font">
     <font>
      <family>Segoe UI Light</family>
+     <italic>false</italic>
     </font>
    </property>
    <property name="styleSheet">
@@ -414,6 +434,8 @@ QPushButton:hover{background-color: rgb(213, 233, 200);color: #ffffff}
   <zorder>pushButton</zorder>
   <zorder>pushButton_2</zorder>
  </widget>
- <resources/>
+ <resources>
+  <include location="strelka.qrc"/>
+ </resources>
  <connections/>
 </ui>

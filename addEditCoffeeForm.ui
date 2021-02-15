@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>490</width>
-    <height>392</height>
+    <width>495</width>
+    <height>383</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">
-background-color:#FAEEDD;</string>
+background-color:#C7A17E;</string>
   </property>
   <widget class="QLabel" name="id_label">
    <property name="enabled">
@@ -63,7 +63,7 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -90,7 +90,7 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -117,7 +117,7 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -125,7 +125,7 @@ color:#000000;
     <string>  Цена:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QLabel" name="label_3d">
    <property name="enabled">
     <bool>true</bool>
    </property>
@@ -139,17 +139,17 @@ color:#000000;
    </property>
    <property name="font">
     <font>
-     <family>Yu Gothic UI Semilight</family>
+     <family>Georgia</family>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: #79553D;</string>
+    <string notr="true">color: #000000;</string>
    </property>
    <property name="text">
     <string>Впишите данные ниже</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="pushButton_2d">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -174,7 +174,7 @@ QPushButton:hover{background-color: rgb(213, 233, 200);color: #ffffff}
     <string>Сохранить</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="pushButtond">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -217,7 +217,7 @@ QPushButton:hover{background-color: rgb(213, 233, 200);color: #ffffff}</string>
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -244,7 +244,7 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -252,31 +252,7 @@ color:#000000;
     <string>  Объем упаковки:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>180</x>
-     <y>50</y>
-     <width>81</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Yu Gothic UI Semilight</family>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: #79553D;</string>
-   </property>
-   <property name="text">
-    <string>Описание</string>
-   </property>
-  </widget>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QTextBrowser" name="textBrowserd">
    <property name="enabled">
     <bool>true</bool>
    </property>
@@ -296,7 +272,7 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:30px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
@@ -311,7 +287,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:7.8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="lineEditd">
    <property name="geometry">
     <rect>
      <x>30</x>
@@ -320,14 +296,23 @@ p, li { white-space: pre-wrap; }
      <height>16</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Light</family>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
 background-color: #dadada;
 color:#000000;
 </string>
    </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="lineEdit_2d">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -344,12 +329,12 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
+  <widget class="QLineEdit" name="lineEdit_3d">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -366,12 +351,12 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_4">
+  <widget class="QLineEdit" name="lineEdit_4d">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -388,12 +373,12 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_5">
+  <widget class="QLineEdit" name="lineEdit_5d">
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -410,12 +395,12 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_6">
+  <widget class="QLineEdit" name="lineEdit_6d">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -432,9 +417,33 @@ color:#000000;
    </property>
    <property name="styleSheet">
     <string notr="true">border-radius:10px;
-background-color: #BDECB6;
+background-color: #FFE1B5;
 color:#000000;
 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4d">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Georgia</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;</string>
+   </property>
+   <property name="text">
+    <string>Впишите описание вкуса</string>
    </property>
   </widget>
  </widget>
