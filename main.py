@@ -78,7 +78,6 @@ class addEditCoffeeForm(QWidget):
         new_list = []
         con = sqlite3.connect("coffee.sqlite")
         cur = con.cursor()
-        text = self.lineEditd.text()
         new_list.append(self.lineEdit_2d.text())
         new_list.append(self.lineEdit_3d.text())
         new_list.append(self.lineEdit_4d.text())
